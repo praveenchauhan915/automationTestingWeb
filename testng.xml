@@ -1,0 +1,17 @@
+<suite name="My Test Suite">
+    <test name="Starting TestNG">
+        <classes>
+            <class name="TestNGTutorial.testNgExample1"/>
+            <class name="TestNGTutorial.testNgExample2"/>
+        </classes>
+    </test>
+    <test name="Starting2 TestNG">
+        <classes>
+            <class name="TestNGTutorial.testNgExample3">
+                <methods>
+                    <exclude name="testNgExample2"/>
+                </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
